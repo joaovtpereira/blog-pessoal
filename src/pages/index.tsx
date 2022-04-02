@@ -5,20 +5,27 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home | ig.news</title>
+        <title>Home | João Vitor Pereira</title>
       </Head>
 
       <main className={styles.contentContainer}>
-        <section className={styles.hero}>
-          <span>👏 Olá, tudo bem?</span>
+        <section className={styles.section}>
           <h1>
-            News about the <span>React</span> world.
+            Desenvolvedor <span>Front-End</span>
           </h1>
 
+          <p>Apaixonado por tecnologias, novidades, livros e muito mais.</p>
           <p>
-            Get acess to all the publications <br />
-            <span>for 30 mounth</span>
+            Olá, meu nome é João Vitor Pereira, tenho 23 anos e sou
+            Desenvolvedor Front-End Mobile Pleno. Atualmente trabalho com o
+            Framework do React Native, mas adora estudar novas abordagens como
+            Flutter, além de stacks voltadas para web como Angular, NextJS,
+            ReactJS.
           </p>
+
+          <div>
+            <u>Saiba mais</u>
+          </div>
         </section>
       </main>
     </>
