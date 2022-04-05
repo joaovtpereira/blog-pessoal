@@ -27,6 +27,23 @@ export default function Home() {
             <u>Saiba mais</u>
           </div>
         </section>
+
+        <section className={styles.works}>
+          <div className={styles.rowCards}>
+            <div className={styles.card}>
+              <img className={styles.imageCard} src="/images/Book.svg" alt="Livro" />
+              <span>Resenhas literárias</span>
+            </div>
+            <div className={styles.card}>
+              <img className={styles.imageCard} src="/images/Game-Controlle.svg" alt="Livro" />
+              <span>Resenhas jogos</span>
+            </div>
+            <div className={styles.card}>
+              <img className={styles.imageCard} src="/images/movie-projector.svg" alt="Livro" />
+              <span>Resenhas filmes</span>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
