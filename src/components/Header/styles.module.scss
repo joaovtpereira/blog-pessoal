@@ -12,6 +12,14 @@
   display: flex;
   align-items: center;
 
+  justify-content: space-between;
+}
+
+.navContent {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
   nav {
     margin-left: 5rem;
     height: 5rem;
@@ -55,4 +63,10 @@
   button {
     margin-left: auto;
   }
+}
+
+.iconsContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
